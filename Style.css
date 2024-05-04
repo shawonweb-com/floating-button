@@ -1,0 +1,81 @@
+/* Floating Button Container */
+     .contact-buttons {
+         position: fixed;
+         bottom: -25px;
+        /* Adjust the value to your preference */
+         right: 195px;
+         width: 52px;
+         z-index: 999;
+         display: flex;
+         flex-direction: row;
+    }
+     .contact-button {
+         margin-right: 10px;
+    }
+     .contact-button a {
+         display: block;
+         padding: 10px;
+         border-radius: 50%;
+         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+         transition: background-color 0.3s ease;
+         text-align: center;
+         text-decoration: none;
+         font-weight: bold;
+    }
+    /* Email Button Styles */
+     .email-button{
+         height:100px;
+    }
+     .email-button a {
+         background-color: #2ecc71;
+        /* Green color for email button */
+         color: #ffffff;
+    }
+     .email-button a:hover {
+         background-color: #27ae60;
+        /* Darker green color on hover */
+    }
+     .email-button svg {
+         width: 25px;
+         height: 25px;
+         fill: #FFFFFF;
+    }
+    /* Phone Button Styles */
+     .phone-button a {
+         background-color: #e74c3c;
+        /* Red color for phone button */
+         color: #ffffff;
+    }
+     .phone-button a:hover {
+         background-color: #c0392b;
+        /* Darker red color on hover */
+    }
+     .phone-button svg {
+         width: 23px;
+         height: 23px;
+         fill: #FFFFFF;
+    }
+    /* End Floating Button Container */
+    /* WhatsApp Floating Button Styles */
+     .whatsapp-button {
+    }
+     .whatsapp-button a {
+         display: block;
+         padding: 10px;
+         background-color: #25D366;
+        /* Green color for WhatsApp button */
+         border-radius: 50%;
+         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+         transition: background-color 0.3s ease;
+    }
+     .whatsapp-button a:hover {
+         background-color: #128C7E;
+        /* Darker green color on hover */
+    }
+     .whatsapp-button svg {
+         width: 26px;
+         height: 26px;
+         fill: #FFFFFF;
+        /* White color for WhatsApp icon */
+    }
+    /* End WhatsApp Floating Button Styles */
